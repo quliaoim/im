@@ -193,7 +193,7 @@
         //是否是QQ内置浏览器，qq浏览器
         var is_qq_browser = ua.indexOf(' qq')>-1 && ua.indexOf('mqqbrowser') <0;
         //判断设备是否为iPhone
-        $(".down").attr("href",'quliao-im.apk');
+        $(".down").attr("href",'quliao-im-2.apk');
         if (is_phone_device) {  
             if(isWeiXin || is_qq_browser) {
               $(function() {
@@ -242,7 +242,7 @@
                 $('.wechat-android').show()
               });
             }
-            $(".down").attr("href",'quliao-im.apk');
+            $(".down").attr("href",'quliao-im-2.apk');
             //打开引导弹窗
             $(".doubt").click(function(event) {
                 $(".pup").fadeIn();
